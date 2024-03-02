@@ -27,26 +27,6 @@
     padding: 5px;
 }
 
-/* label tag */
-
-span.label{
-    color:white;
-    border-radius: 5px;
-    padding:4px 6px;
-}
-
-.disponibile-label{
-    background-color: green;
-}
-
-.in-prestito-label{
-    background-color: #ffc107;
-}
-
-.non-disponibile-label{
-    background-color: red;
-}
-
 .sidebar-title{
     background-color: #f2f2f2;
 }
