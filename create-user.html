@@ -43,25 +43,41 @@
     </header>
     <main>
         <div class="container">
-           <h1>Nuovo Utente</h1>
+           <h1 class="h3">Nuovo Utente</h1>
            <p>Crea il tuo account per poter accedere al cicuito bibliotecario Duck Library Network</p>
         </div>
         <div class="container pt-2">
             <form class="new-user-form" method="GET">
                 <div class="row g-3">
                     <div class="col-lg-6">
-                        <label for="name" class="form-label">Nome*</label>
+                        <label for="name" class="form-label fw-semibold">Nome*</label>
                       <input type="text" name="name" class="form-control" placeholder="Nome" id="name" aria-label="First name" required>
                     </div>
                     <div class="col-lg-6">
-                        <label for="surname" class="form-label">Cognome*</label>
+                        <label for="surname" class="form-label fw-semibold">Cognome*</label>
                       <input type="text"  name="surname" class="form-control" placeholder="Cognome" id="surname" aria-label="Last name" required>
                     </div>
                                
-                    <div>
-                        <label for="email" class="form-label">Email (optional)</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                      </div> 
+                    <div class="col-12">
+                        <label for="email" class="form-label fw-semibold">Email (optional)</label>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                    </div> 
+                   <div class="col-lg-6">
+                    <label for="address" class="form-label fw-semibold">Indirizzo</label>
+                    <input type="text" class="form-control" name="address" id="address" placeholder="Via Montenapoleone 12">
+                   </div>
+                   <div class="col-7 col-lg-4">
+                    <label for="city" class="form-label fw-semibold">Città</label>
+                    <input type="text" class="form-control" name="city" id="city" placeholder="Milano">
+                   </div>
+                   <div class="col-5 col-lg-2">
+                    <label for="zip" class="form-label fw-semibold">CAP</label>
+                    <input type="number" class="form-control" name="zip" id="zip" placeholder="20100">
+                   </div>
+                   <div class="col-12 d-grid gap-2">
+                    <button class="btn btn-primary" type="button" id="button-addon1">Create user</button>
+                   </div>
+
                 </div>              
             </form>
         </div>
