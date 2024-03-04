@@ -19,13 +19,7 @@
 
 /* anchor tags */
 
-.library-card a{
-    text-decoration: none;
-    background-color: blue;
-    color:white;
-    border-radius: 5px;
-    padding: 5px;
-}
+
 
 .sidebar-title{
     background-color: #f2f2f2;
